@@ -1,0 +1,162 @@
+.about-main{
+    padding: 0;
+    margin: 0;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(43, 41, 41);
+    z-index: 100;
+    box-shadow: 0 -5px 55px rgba(0,0,0,1) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image{
+    width: 30rem;
+    height: 30rem;;
+    /* border: 1px solid white; */
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 4rem;
+}
+
+.about-image img{
+    height: 30rem;
+    width: 30rem;
+    box-shadow: 25px 25px rgba(55, 215, 255,.7);
+    /* margin-right: 4rem; */
+    
+}
+
+
+
+.about-text{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 4rem;
+    padding-top:11rem;
+    color: rgb(255, 255, 255, .9);
+    text-align: justify;
+}
+
+
+.about-image p{
+    /* transform: rotateY(90deg); */
+    /* color: red; */
+    position: absolute;
+    left:-23%;
+    bottom:35%;
+    z-index: 100;
+    transform:rotate(-90deg);
+    color:rgba(55, 215, 255,.9);
+    font-size: 3.5rem;
+    opacity: .9;
+}
+
+.about-text h1{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;;
+}
+
+.about-text p{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.about-text .bottom-text{
+   
+    font-size: 2rem;
+}
+
+
+/* ******************************************************** Media Queries *************************************** */
+
+
+@media only screen and (max-width: 1200px){
+    .about-text .bottom-text{
+        margin-top: 2rem;
+    }
+
+    .about-image{
+        margin-left: 2rem;
+        /* border: 1px solid red; */
+    }
+    .about-text{
+        padding:8rem 1.5rem 0; 
+        /* border: 1px solid red; */
+        width:100%;
+    }
+
+    .about-text h1{
+        font-size: 2.5rem;
+    }
+
+    .about-text p{
+        font-size: 1rem;
+    }
+
+}
+
+
+/* *********************************** 1000px *********************************************** */
+
+@media only screen and (max-width: 1000px){
+    .about-image,.about-image img{
+        width: 22rem;
+        height: 22rem
+    }
+    .about-image p{
+        font-size: 3rem;
+    }
+
+    .about-text h1{
+        text-align: left;
+    }
+
+    .about-text{
+        padding-top:12rem;
+    }
+}
+
+/* ************************************** 768px ****************************************************** */
+
+@media only screen and (max-width: 768px){
+
+    .about-main{
+        /* background-color: yellow; */
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .about-text{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 6rem 2rem 
+       
+    }
+
+    .about-text p{
+           font-size: .8rem;
+    }
+
+
+    .about-text h1{
+        font-size: 1.7rem;
+    }
+
+    .about-image,.about-image img{
+        width: 14rem;
+        height: 14rem;
+        margin-top: 4rem;
+    }
+    .about-image p{
+        font-size: 1.2rem;
+        left: -17%;
+        bottom: 10%;
+    }
+}
