@@ -11,7 +11,7 @@ import Faq from './components/faq/Faq';
 
 function App() {
   return (
-    <Router basename='/'>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
       <Menu />
         <Routes>          
