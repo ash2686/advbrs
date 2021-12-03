@@ -1,25 +1,22 @@
 import React from 'react'
 import './About.css'
-import pic from '../../assets/pic4.jpg'
+import pic from '../../assets/pic4.png'
 
 export default function About() {
     return (
         <div className='about-main'>
             <div className="about-image">
             <img src={pic} alt="about pic not loaded" />
-                 <p>Ash Sharma</p>
+                 {/* <p>Leo</p> */}
             </div>
 
             <div className="about-text">
                 <div className="top-text"><h1>Welcome to my page</h1></div>
                 
                 <div className="about-text-main">
-                    <p>B.R. Sharma have over 40 years of expirience in practicing law, he speailise in insurance and bank  realted work and claims.Based in the Solan City center, he provides an efficient and fast service, With his vast expirience you can consider you neccasity met or job done. You can have a look at the other case scenarios on this webiste to have an idea about the proces.</p>
-
-                    <p>He  have completeted my Bacholor in Law degree from HP  university Shimla in about 1980's.  Since then he has also represented his  clients at the high courts arcross northern India. </p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium iure magnam atque amet debitis consequatur dolore, explicabo, velit deleniti expedita, accusamus at ipsam aliquam error rerum inventore repudiandae sequi dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, totam, provident saepe incidunt officiis expedita nobis quis ratione, quod esse officia odit? Ad, labore cumque. Cumque atque eaque sunt autem.
                 </div>  
                 <div className="bottom-text">
-                   <p>Adv. B.R. Sharma</p>
                 </div>
             </div>
         </div>

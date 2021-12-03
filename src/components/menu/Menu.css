@@ -109,6 +109,8 @@
     justify-content: flex-start;
     flex-direction: column;
     animation: down 1.5s ease-in-out;
+    background-color: rgb(212, 212, 212);
+    border-radius:5px;
     /* border: 2px solid red; */
 }
 
@@ -118,7 +120,7 @@
     padding: 0;
     font-weight: bolder;
     font-weight: 110px;
-    filter: brightness(200%);
+    /* filter: brightness(200%); */
     /* border: 1px solid black; */
 }
 

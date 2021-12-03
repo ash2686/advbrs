@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://ash2686.github.io/advbrs",
+  "homepage": ".",
   "name": "advbrs",
   "version": "0.1.0",
   "private": true,
@@ -12,8 +12,7 @@
     "react-router-dom": "^6.0.2",
     "react-scripts": "^3.4.4",
     "web-vitals": "^1.1.2"
-    },
-
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

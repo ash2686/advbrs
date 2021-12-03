@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../assets/logo30.jpg'
+import logo from '../../assets/logo31.png'
 import './Menu.css'
 
 const Menu = () => {
