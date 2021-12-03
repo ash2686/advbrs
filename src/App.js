@@ -11,7 +11,7 @@ import Faq from './components/faq/Faq';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div className="App">
       <Menu />
         <Routes>          
