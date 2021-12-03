@@ -9,12 +9,12 @@ const Faq = () => {
             </div>
            
              {/* **************** start of accordion *********************** */}
-            <div className='faq-accordion container text-light bg-dark rounded mt-2 p-2' id='faqa'>
+            <div className='faq-accordion container text-light bg-dark rounded mt-2 py-2' id='faqa'>
                 
                 {/* *************************** item ***************************** */}
-                <div className="accordion-item bg-dark text-success mt-3">
+                <div className="accordion-item bg-dark text-success my-4">
                     <h2 className='accordion-header bg-danger' id='h1'>
-                        <button className="accordion-button text-success bg-dark border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
+                        <button className="accordion-button text-success bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
                             Accordion Item #1
                         </button>
                     </h2>
@@ -27,9 +27,9 @@ const Faq = () => {
                 </div> {/* end of accordion item */}
 
                  {/* *************************** end of item ***************************** */}
-                <div className="accordion-item bg-dark text-success mt-3">
+                <div className="accordion-item bg-dark text-success my-4">
                     <h2 className='accordion-header' id='h2'>
-                        <button className="accordion-button bg-dark text-success border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="true" aria-controls="c2">
+                        <button className="accordion-button bg-dark text-success" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="true" aria-controls="c2">
                             Accordion Item #1
                         </button>
                     </h2>
@@ -41,9 +41,9 @@ const Faq = () => {
                     </div>
                 </div>
 
-                <div className="accordion-item bg-dark text-success mt-3">
+                <div className="accordion-item bg-dark text-success my-4">
                     <h2 className='accordion-header' id='h3'>
-                        <button className="accordion-button bg-dark text-success border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#c3" aria-expanded="true" aria-controls="c3">
+                        <button className="accordion-button bg-dark text-success" type="button" data-bs-toggle="collapse" data-bs-target="#c3" aria-expanded="true" aria-controls="c3">
                             Accordion Item #1
                         </button>
                     </h2>
@@ -55,9 +55,9 @@ const Faq = () => {
                     </div>
                 </div>
 
-                <div className="accordion-item bg-dark text-success mt-3">
+                <div className="accordion-item bg-dark text-success my-4">
                     <h2 className='accordion-header' id='h4'>
-                        <button className="accordion-button bg-dark text-success border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#c4" aria-expanded="true" aria-controls="c4">
+                        <button className="accordion-button bg-dark text-success" type="button" data-bs-toggle="collapse" data-bs-target="#c4" aria-expanded="true" aria-controls="c4">
                             Accordion Item #1
                         </button>
                     </h2>
@@ -69,9 +69,9 @@ const Faq = () => {
                     </div>
                 </div>
 
-                <div className="accordion-item bg-dark text-success mt-3">
+                <div className="accordion-item bg-dark text-success my-4">
                     <h2 className='accordion-header' id='h5'>
-                        <button className="accordion-button bg-dark text-success border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#c5" aria-expanded="true" aria-controls="c5">
+                        <button className="accordion-button bg-dark text-success" type="button" data-bs-toggle="collapse" data-bs-target="#c5" aria-expanded="true" aria-controls="c5">
                             Accordion Item #1
                         </button>
                     </h2>
