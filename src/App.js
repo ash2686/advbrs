@@ -15,7 +15,7 @@ function App() {
       <div className="App">
       <Menu />
         <Routes>          
-          <Route exact path='/' element = {<Home />} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} element = {<Home />} />
           <Route path='/about' element = {<About />} />
           <Route path='/expertise' element = {<Expertise />} />
           <Route path='/cs' element = {<Case />} />
