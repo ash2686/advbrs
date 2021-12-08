@@ -7,6 +7,7 @@ import About from './components/about/About';
 import Expertise from './components/expertise/Expertise';
 import Case from './components/case/Case';
 import Faq from './components/faq/Faq';
+import Contact from './components/contact/Contact';
 // import vid from './assets/vid.mp4'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/expertise' element = {<Expertise />} />
           <Route path='/cs' element = {<Case />} />
           <Route path='/faq' element = {<Faq />} />
+          <Route path='/contact' element = {<Contact />} />
         </Routes>
       </div>
     </Router>

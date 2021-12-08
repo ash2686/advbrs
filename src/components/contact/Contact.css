@@ -1,0 +1,15 @@
+.contact-main{
+    width: 100vw;
+    height: 90vh;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to right top, orange, rgb(175, 175, 175)); */
+    /* background-image: url('../../assets/bgbook1.jpg');
+    background-size: 100% 100%; */
+}
+
+img{
+    width: 100%;
+    height :45%;
+}
