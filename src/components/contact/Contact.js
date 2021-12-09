@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact-block container-fluid container-lg h-100 p-0 py-lg-5 m-0 d-flex">
         <div className="contact-left h-md-50 w-lg-50 p-5 border border-2 border-light">
          
-          <form action="#" className="w-100 h-100 text-light text-start d-flex flex-column justify-content-center">
+          <form action="#" className="w-100 h-100 text-light text-start d-flex flex-column justify-content-center dummy">
           <h1 className="display-5 hello">Get In Touch</h1>
                <p className="h6 lead para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum voluptatibus maxime perspiciatis exercitationem non alias, harum eos illum animi, quia perferendis corporis debitis, enim dignissimos!</p>
                <div className="line1 d-flex flex-row my-3">

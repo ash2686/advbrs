@@ -102,7 +102,7 @@
 @media only screen and (max-width: 450px){
     .exprt-main{
         width: 30%;
-        height: 70%;
+        height: 100%;
     }
 
      .exprt-text-main p{
@@ -117,7 +117,7 @@
 @media only screen and (max-width: 380px){
     .exprt-main{
         width: 33%;
-        height: 70%;
+        height: 100%;
         margin: 0 .2rem;
     }
     .exprt-text-main{

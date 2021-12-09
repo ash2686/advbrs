@@ -97,4 +97,8 @@
     
         font-size: .8rem;
     }
+
+    .contact-left .dummy{
+        padding: 1rem 0;
+    }
 }

@@ -168,8 +168,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
-        /* display:none; */
+        height: 100vh;
+        width: 100vw;
     }
     .about-text{
         width: 100%;
@@ -187,7 +187,7 @@
     }
 
     .about-image,.about-image img{
-        width: 14rem;
+        width: 12rem;
         height: 14rem;
         margin-top: 4rem;
     }
