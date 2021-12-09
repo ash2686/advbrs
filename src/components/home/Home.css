@@ -322,7 +322,7 @@
     }
 
     .home-main-text h1{
-        font-size: 1.5rem;
+        font-size: .5rem;
     }
 
     .home-main-text h3{
@@ -353,31 +353,36 @@
     }
 
     .home-main-button{
-        padding: .6rem;
-        font-size: .7rem;
-        font-size: .5rem;
+        /* padding: .1rem; */
+        font-size: .4rem;
     }
 
     .home-side-button{
         font-size: .7rem;
         border-radius: 0 3px 3px 0;
           font-size: .3rem;
+          display: none;
     }
 
     .home-main-text h1{
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-bottom:-.2rem;
     }
 
     .home-main-text h3{
-        font-size: .8rem;
-        margin-bottom: -2.5rem;
+        font-size: .6rem;
+        margin-bottom: -1rem;
+        margin-top: .5rem;
     }
 
     .home-main-text h4{
         font-size: .7rem;
         word-wrap: break-word;
         margin: 2rem;
+    }
+
+    .home-line{
+    margin-top: 2rem;
     }
 
 }
