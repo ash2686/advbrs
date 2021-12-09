@@ -60,7 +60,7 @@
 }
 .home-main-text{
     /* border: 1px solid green; */
-    width: 30%;
+    width: 45%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -68,6 +68,7 @@
     flex-direction: column;
     text-align: center;
     animation: demo1 1.5s ease-in-out;
+    /* border: 1px solid red; */
 }
 
 .home-line{
@@ -81,10 +82,13 @@
     color: rgb(255, 255, 255,.9);
     font-size: 3rem;
     letter-spacing: 2px;
+    /* border: 1px solid red; */
+    width: 100%;
 }
 
 .home-main-text h3{
     color: rgb(255, 255, 255,.9);
+    font-size: 1.2em;
 }
 
 .home-main-text h4{
@@ -162,7 +166,7 @@
     transition: 0s;
 }
 
-@keyframes demo{
+/* @keyframes demo{
     from {
         transform: translateX(-200%)
     }
@@ -179,7 +183,7 @@
         transform: translateX(0);
     }
     
-}
+} */
 
 
     
@@ -197,7 +201,7 @@
     }
 
     .home-image-container img{
-        height: 50%;
+        height: 80%;
     }
     .home-main-button{
         font-size: .8rem;
@@ -236,7 +240,7 @@
     }
 
   .home-image-container{
-      width:80%;
+      width:50%;
       height: 40%;
   }  
 
@@ -297,13 +301,17 @@
 
 @media only screen and (max-width:560px){
 
+    .home-image-container{
+        width:80%;
+        height: 40%;
+    }
 
     .home-page-main{
         width: 100vw;
         height: 100vh;
     }
     .home-main-text .home-button{
-        width: 30%;
+        width: 40%;
         height: 3rem;
         display:flex;
         justify-content: center;
@@ -313,7 +321,7 @@
 
     .home-main-button{
         /* padding: .6rem; */
-        font-size: .4rem;
+        font-size: .7rem;
     }
 
     .home-side-button{
@@ -322,21 +330,26 @@
     }
 
     .home-main-text h1{
-        font-size: .5rem;
+        font-size: 2rem;
     }
 
     .home-main-text h3{
-        font-size: .6rem;
+        font-size: 1.1rem;
     }
 
     .home-main-text h4{
-        font-size: .6rem;
+        font-size: .9rem;
     }
 
 }
 
 
 @media only screen and (max-width:420px){
+    .home-image-container{
+        width:80%;
+        height: 40%;
+        margin: 0 auto;
+    }
 
 
     .home-page-main{

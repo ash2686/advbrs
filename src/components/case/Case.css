@@ -71,14 +71,28 @@
 }
 
 @media only screen and (max-width:768px){
+
+    .case-main{
+        padding-left:.5rem;
+    }
+    .case-text-block{
+        border: 1px solid white;
+        height: 75%;
+        padding: .5rem;
+        text-align: left;
+    }
     .case-text-block h1{
+        width: 100%;
         font-size: 2rem;
-}
+        text-align: left !important;
+        /* border: 1px solid red; */
+    }
 
 .case-text-block p{
-    font-size: .9rem;
+    font-size: .85rem;
     text-align: left;
     margin: .5rem 0;
+    width:100%;
 }
 
 }

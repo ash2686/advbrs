@@ -213,4 +213,11 @@
     padding:5rem 0 0;
 }
 
+.about-image img{
+    width: 12rem;
+    height: 14rem;
+    margin-top: 4rem;
+    box-shadow: 5px 5px rgba(94, 94, 94, 0.7);
+
+}
 }
