@@ -10,17 +10,17 @@ const Contact = () => {
           <form action="#" className="w-100 h-100 text-light text-start d-flex flex-column justify-content-center dummy">
           <h1 className="display-5 hello">Get In Touch</h1>
                <p className="h6 lead para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum voluptatibus maxime perspiciatis exercitationem non alias, harum eos illum animi, quia perferendis corporis debitis, enim dignissimos!</p>
-               <div className="line1 d-flex flex-row my-3">
+               <div className="line1 d-flex flex-row my-sm-2 my-md-3">
                   <input type="text" className="form-control me-3" id-="name" placeholder="Full Name"/>  
                   <input type="email" className="form-control" id="email" placeholder="Email" />
                </div>
 
-               <div className="line2 d-flex my-3">
+               <div className="line2 d-flex my-sm-2 my-md-3">
                  <input type="text" className="form-control me-3" id="Phone" placeholder="Phone" />
                  <input type="date" className="form-control" id="date" placeholder="Date" />
                </div>
 
-               <div className="line3 my-3">
+               <div className="line3 my-sm-2 my-md-3">
                  <textarea name="text area" id="textarea" cols="5" rows="1" className="form-control"></textarea>
                </div>
 

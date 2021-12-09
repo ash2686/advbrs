@@ -9,10 +9,10 @@ const Faq = () => {
             </div>
            
              {/* **************** start of accordion *********************** */}
-            <div className='faq-accordion  accordion accordion-flush h-75 container text-light bg-secondary rounded mt-2 p-1' id='faqa'>
+            <div className='faq-accordion  accordion accordion-flush h-50 container text-light bg-secondary rounded mt-2 p-1' id='faqa'>
                 
                 {/* *************************** item ***************************** */}
-                <div className="accordion-item text-success my-2 bg-dark">
+                <div className="accordion-item text-success bg-dark">
                     <h2 className='accordion-header' id='h1'>
                         <button className="accordion-button text-dark bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
                             Accordion Item #1
@@ -27,7 +27,7 @@ const Faq = () => {
                 </div> {/* end of accordion item */}
 
                  {/* *************************** end of item ***************************** */}
-                <div className="accordion-item bg-dark text-success my-4">
+                <div className="accordion-item bg-dark text-success">
                     <h2 className='accordion-header' id='h2'>
                         <button className="accordion-button bg-secondary  text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="true" aria-controls="c2">
                             Accordion Item #2
@@ -41,7 +41,7 @@ const Faq = () => {
                     </div>
                 </div>
 
-                <div className="accordion-item bg-dark text-success my-4">
+                <div className="accordion-item bg-dark text-success">
                     <h2 className='accordion-header' id='h3'>
                         <button className="accordion-button bg-secondary  text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#c3" aria-expanded="true" aria-controls="c3">
                             Accordion Item #3
@@ -55,7 +55,7 @@ const Faq = () => {
                     </div>
                 </div>
 
-                <div className="accordion-item bg-dark text-success my-4">
+                <div className="accordion-item bg-dark text-success">
                     <h2 className='accordion-header' id='h4'>
                         <button className="accordion-button bg-secondary  text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#c4" aria-expanded="true" aria-controls="c4">
                             Accordion Item #3

@@ -80,6 +80,10 @@
      width: 100%;
  }
 
+ .line1,.line2,.line3{
+    margin: .5rem 0;
+}
+
 }
 
 
@@ -100,5 +104,9 @@
 
     .contact-left .dummy{
         padding: 1rem 0;
+    }
+
+    .line1,.line2,.line3{
+        margin: .5rem 0;
     }
 }
