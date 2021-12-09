@@ -96,3 +96,19 @@
 }
 
 }
+
+@media only screen and (max-width:450px){
+    .case-text-block h1{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: left !important;
+        /* border: 1px solid red; */
+    }
+
+    .case-text-block p{
+        font-size: .7rem;
+        text-align: left;
+        margin: .5rem 0;
+        width:100%;
+    }
+}

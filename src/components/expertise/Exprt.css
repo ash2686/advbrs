@@ -108,6 +108,12 @@
     .exprt-main{
         width: 30%;
         height: 100%;
+        margin:.5rem;
+    }
+
+
+    .exprt-text-main{
+        padding: .5rem;
     }
 
      .exprt-text-main p{
@@ -123,10 +129,10 @@
     .exprt-main{
         width: 33%;
         height: 100%;
-        margin: 0 .2rem;
+        margin:.5rem;
     }
     .exprt-text-main{
-        padding: .2rem;
+        padding: .5rem;
     }
 
     .exprt-text-main p{
