@@ -4,12 +4,97 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    /* background-image: linear-gradient(to right top, orange, rgb(175, 175, 175)); */
-    /* background-image: url('../../assets/bgbook1.jpg');
-    background-size: 100% 100%; */
+
 }
 
-img{
+/* img{
     width: 100%;
     height :45%;
+} */
+
+/* @media only screen and (max-width: 992px){
+ .hello{
+      color: red;
+  }
+} */
+
+@media only screen and (max-width: 1200px){
+    .hello{
+        font-size: 3rem;
+        /* color:green; */
+    }
+}
+
+@media (max-width: 992px) {
+    .hello{
+        font-size: 2.5rem;
+        /* color:red; */
+    }
+
+    .para{
+    
+        font-size: 1.2rem;
+    }
+    .icon-set p,.icon-set i{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .hello{
+        font-size: 2.1rem;
+        
+    }
+    .para{
+        
+        font-size: .9rem;
+    }
+
+    .icon-set p,.icon-set i{
+        font-size: 1rem;
+    }
+
+    .contact-main{
+        width: 100vw;
+        height: 100vh;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        /* background-color: red; */
+             
+    }  
+       
+
+    .contact-block{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding:0;
+        margin:0;  
+ }
+
+ .contact-left,.contact-right{
+     height: 50%;
+     width: 100%;
+ }
+
+}
+
+
+@media (max-width: 472px){
+    .icon-set p,.icon-set i{
+        font-size: .6rem;
+    }
+
+    .hello{
+        font-size: 1.5rem;
+        /* color:red; */
+    }
+
+    .para{
+    
+        font-size: .8rem;
+    }
 }
