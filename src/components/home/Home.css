@@ -166,7 +166,7 @@
     transition: 0s;
 }
 
-/* @keyframes demo{
+@keyframes demo{
     from {
         transform: translateX(-200%)
     }
@@ -183,7 +183,7 @@
         transform: translateX(0);
     }
     
-} */
+}
 
 
     

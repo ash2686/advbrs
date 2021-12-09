@@ -199,6 +199,14 @@
 }
 
 @media only screen and (max-width: 450px){
+    .about-main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
 
     .about-text p{
         font-size: .7rem;
