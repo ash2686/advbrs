@@ -4,9 +4,20 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    animation: faq1 2s ease-in-out;
     /* background-image: linear-gradient(to top right,rgb(56, 56, 56), rgb(0, 0, 0)); */
 }
 
+@keyframes faq1 {
+    50%{
+    background-image: linear-gradient(to top right,rgb(56, 56, 56), rgb(0, 0, 0));
+}
+
+75%{
+    background-image: linear-gradient(to top right, rgb(0, 0, 0),rgb(56, 56, 56));
+}
+
+}
 
 @media only screen and (max-width:768px){
     .faq-main{
