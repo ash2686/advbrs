@@ -12,7 +12,7 @@
     align-items: center;
     box-sizing: border-box;
     /* padding: 0 20rem; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -278,7 +278,7 @@
 
  .about-text h1{
      font-size: 1.1rem;
-     margin: -.5rem;
+     /* margin: -.5rem; */
  }
 
 .about-image img{
