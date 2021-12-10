@@ -228,7 +228,7 @@
 
  .about-text h1{
      font-size: 1.2rem;
-     margin: -.5rem;
+     /* margin: -.5rem; */
  }
 
 .about-image img{
@@ -264,7 +264,7 @@
 
  .about-text h1{
      font-size: 1.1rem;
-     /* margin: -.5rem; */
+   
  }
 
 .about-image img{
