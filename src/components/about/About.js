@@ -7,7 +7,7 @@ export default function About() {
         <div className='about-main'>
             <div className="about-image">
             <img src={pic} alt="about pic not loaded" />
-                           </div>
+            </div>
 
             <div className="about-text">
                 <div className="top-text"><h1>Welcome to my page</h1></div>

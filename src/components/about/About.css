@@ -11,19 +11,20 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 20rem;
+    /* padding: 0 20rem; */
+    border: 1px solid red;
 }
 
 
 .about-image{
-    width: 20rem;
-    height: 27rem;;
-    /* border: 1px solid white; */
+    width: 40%;
+    height: 100%;;
     display:flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
-    margin-right: 4rem;
+    /* border: 1px solid red; */
+
 }
 
 .about-image img{
@@ -40,11 +41,14 @@
     box-sizing: border-box;
     width: 60%;
     height: 100%;
-    /* border: 1px solid red; */
-    /* padding: 4rem; */
-    padding:10rem 4rem 0;
+    padding: 0 1rem;
     color: rgb(255, 255, 255, .9);
     text-align: justify;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -60,7 +64,7 @@
 }
 
 .about-text h1{
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     font-size: 3rem;;
 }
 
@@ -80,40 +84,48 @@
 
 @media only screen and (max-width: 1800px){
     .about-main{
-       padding: 0 5rem;
+       padding: 0 1rem;
        display: flex;
-       justify-content: space-evenly;
+       justify-content: center;
+       align-items: center;
     }
 
     .about-text{
-        padding:10rem 3rem 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        padding: 0 1rem;
     }
 
     .about-text h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
    .about-text p{
-        font-size: 1rem;
+        font-size: .9rem;
     }
-
+    .about-image{
+        /* border: 1px solid red; */
+        height: 100%;
+        display:flex;
+         justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 1200px){
-    .about-text .bottom-text{
-        margin-top: 2rem;
-    }
+  
 
-    .about-image,.about-image img{
-        width: 25rem;
-        height: 25rem
-    }
-
-    .about-image{
-        margin-left: 2rem;
-    }
     .about-text{
-        padding:10rem 1.5rem 0; 
-        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        padding: 0 1rem;
     }
 
     .about-text h1{
@@ -121,7 +133,7 @@
     }
 
     .about-text p{
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
 }
@@ -130,21 +142,29 @@
 /* *********************************** 1000px *********************************************** */
 
 @media only screen and (max-width: 1000px){
-    .about-image,.about-image img{
-        width: 20rem;
-        height: 20rem
-    }
-    .about-image p{
-        font-size: 2.5rem;
-    }
 
+
+    .about-image img{
+        height: 20rem;
+        width: 17rem;
+        box-shadow: 12px 12px rgba(94, 94, 94, 0.7);
+        /* margin-right: 4rem; */
+        
+    }
+    
     .about-text h1{
         text-align: left;
         font-size: 1.7rem;
     }
 
     .about-text{
-        padding-top:12rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        padding: 0 1rem;
     }
 
     .about-text p{
@@ -152,9 +172,9 @@
     }
 
     .about-main{
-        padding: 0 2rem;
-        display: flex;
-        justify-content: space-evenly;
+                display: flex;
+        justify-content: center;
+        align-items: center;
      }
  
 }
@@ -172,30 +192,32 @@
         width: 100vw;
     }
     .about-text{
+        height: 50%;
         width: 100%;
-        padding: 6rem 2rem 
+        padding: 6rem 2rem; 
+        /* border: 1px solid red; */
        
     }
 
     .about-text p{
-           font-size: 1rem;
+           font-size: .8rem;
     }
 
 
     .about-text h1{
         font-size: 1.7rem;
     }
+    .about-image{
+        height: 40%;
+        display: flex;      
+    }
 
-    .about-image,.about-image img{
-        width: 12rem;
-        height: 14rem;
+    .about-image img{
+        width: 14rem;
+        height: 17rem;
         margin-top: 4rem;
     }
-    .about-image p{
-        font-size: 1.2rem;
-        left: -17%;
-        bottom: 10%;
-    }
+   
 }
 
 @media only screen and (max-width: 450px){
@@ -209,7 +231,7 @@
     }
 
     .about-text p{
-        font-size: .7rem;
+        font-size: .65rem;
  }
 
 
@@ -217,10 +239,13 @@
      font-size: 1.5rem;
  }
 
- .about-text{
+ /* .about-text{
     padding:5rem 0 0;
-}
+} */
 
+.about-image{
+    border: 1ps solid red;
+}
 .about-image img{
     width: 12rem;
     height: 14rem;
