@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/advbrs/static/css/main.3212ace4.chunk.css",
-    "main.js": "/advbrs/static/js/main.fdc12f23.chunk.js",
-    "main.js.map": "/advbrs/static/js/main.fdc12f23.chunk.js.map",
+    "main.js": "/advbrs/static/js/main.4492dbec.chunk.js",
+    "main.js.map": "/advbrs/static/js/main.4492dbec.chunk.js.map",
     "runtime-main.js": "/advbrs/static/js/runtime-main.7e1061c6.js",
     "runtime-main.js.map": "/advbrs/static/js/runtime-main.7e1061c6.js.map",
     "static/js/2.8657f076.chunk.js": "/advbrs/static/js/2.8657f076.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bab96619.chunk.js": "/advbrs/static/js/3.bab96619.chunk.js",
     "static/js/3.bab96619.chunk.js.map": "/advbrs/static/js/3.bab96619.chunk.js.map",
     "index.html": "/advbrs/index.html",
-    "precache-manifest.11048398dbd3899d419573f8860d3e13.js": "/advbrs/precache-manifest.11048398dbd3899d419573f8860d3e13.js",
+    "precache-manifest.3d7f83c39a21206aed989d1f6787b4d7.js": "/advbrs/precache-manifest.3d7f83c39a21206aed989d1f6787b4d7.js",
     "service-worker.js": "/advbrs/service-worker.js",
     "static/css/main.3212ace4.chunk.css.map": "/advbrs/static/css/main.3212ace4.chunk.css.map",
     "static/js/2.8657f076.chunk.js.LICENSE.txt": "/advbrs/static/js/2.8657f076.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.7e1061c6.js",
     "static/js/2.8657f076.chunk.js",
     "static/css/main.3212ace4.chunk.css",
-    "static/js/main.fdc12f23.chunk.js"
+    "static/js/main.4492dbec.chunk.js"
   ]
 }
