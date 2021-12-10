@@ -76,7 +76,7 @@
         padding-left:.5rem;
     }
     .case-text-block{
-        border: 1px solid white;
+        /* border: 1px solid white; */
         height: 75%;
         padding: .5rem;
         text-align: left;
