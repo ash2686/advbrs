@@ -1,6 +1,5 @@
 .about-main{
-    /* padding: 0 5rem; */
-    margin: 0;
+     margin: 0;
     padding:0;
     width: 100vw;
     height: 90vh;
@@ -11,9 +10,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    /* padding: 0 20rem; */
-    /* border: 1px solid red; */
-}
+   }
 
 
 .about-image{
@@ -23,16 +20,12 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    /* border: 1px solid red; */
-
 }
 
 .about-image img{
     height: 27rem;
     width: 20rem;
     box-shadow: 15px 15px rgba(94, 94, 94, 0.7);
-    /* margin-right: 4rem; */
-    
 }
 
 
@@ -44,7 +37,6 @@
     padding: 0 1rem;
     color: rgb(255, 255, 255, .9);
     text-align: justify;
-    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +44,7 @@
 }
 
 
-.about-image p{
+/* .about-image p{
     position: absolute;
     left:-23%;
     bottom:35%;
@@ -61,10 +53,9 @@
     color:rgba(71, 218, 255, 0.8);
     font-size: 2.5rem;
     opacity: .9;
-}
+} */
 
 .about-text h1{
-    /* margin-bottom: 1.5rem; */
     font-size: 3rem;;
 }
 
@@ -107,7 +98,6 @@
         font-size: .9rem;
     }
     .about-image{
-        /* border: 1px solid red; */
         height: 100%;
         display:flex;
          justify-content: center;
@@ -148,9 +138,7 @@
         height: 20rem;
         width: 17rem;
         box-shadow: 12px 12px rgba(94, 94, 94, 0.7);
-        /* margin-right: 4rem; */
-        
-    }
+   }
     
     .about-text h1{
         text-align: left;
@@ -195,8 +183,6 @@
         height: 50%;
         width: 100%;
         padding: 6rem 2rem; 
-        /* border: 1px solid red; */
-       
     }
 
     .about-text p{
@@ -232,9 +218,9 @@
 
 
     .about-text{
-        /* border: 1px solid red; */
         padding: .7rem;
     }
+
     .about-text p{
         font-size: .65rem;
  }
@@ -268,7 +254,7 @@
     }
 
     .about-text{
-        /* border: 1px solid red; */
+       
         padding: .7rem;
     }
     .about-text p{
