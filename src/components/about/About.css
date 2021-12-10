@@ -32,7 +32,7 @@
 
 .about-text{
     box-sizing: border-box;
-    width: 60%;
+    width: 50%;
     height: 100%;
     padding: 0 1rem;
     color: rgb(255, 255, 255, .9);
@@ -41,6 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 
@@ -86,7 +87,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 50%;
         height: 100%;
         padding: 0 1rem;
     }
@@ -116,6 +117,7 @@
         width: 60%;
         height: 100%;
         padding: 0 1rem;
+        
     }
 
     .about-text h1{
