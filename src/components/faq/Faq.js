@@ -14,7 +14,7 @@ const Faq = () => {
             <div class="accordion container" id="accordionExample">
                 <div class="accordion-item bg-dark text-light">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             Accordion Item #1
                         </button>
                     </h2>
