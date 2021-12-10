@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ce838600a259c698c0fdefbb989d3d0",
+    "revision": "5ec56abb2ff112f59fee35b78c1a831f",
     "url": "/advbrs/index.html"
   },
   {
-    "revision": "e18b93da5bdfca51b105",
-    "url": "/advbrs/static/css/main.84e1090d.chunk.css"
+    "revision": "790c5d6b99715084d3ca",
+    "url": "/advbrs/static/css/main.9c498d05.chunk.css"
   },
   {
     "revision": "aa909fa1ba0ac961d2d5",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advbrs/static/js/3.bab96619.chunk.js"
   },
   {
-    "revision": "e18b93da5bdfca51b105",
-    "url": "/advbrs/static/js/main.4d5ab758.chunk.js"
+    "revision": "790c5d6b99715084d3ca",
+    "url": "/advbrs/static/js/main.754855f1.chunk.js"
   },
   {
     "revision": "2f680bc4f55f87127e62",
