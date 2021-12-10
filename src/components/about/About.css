@@ -230,22 +230,21 @@
         width: 100vw;
     }
 
+
+    .about-text{
+        border: 1px solid red;
+        padding: .7rem;
+    }
     .about-text p{
         font-size: .65rem;
  }
 
 
  .about-text h1{
-     font-size: 1.5rem;
+     font-size: 1.2rem;
+     margin: -.5rem;
  }
 
- /* .about-text{
-    padding:5rem 0 0;
-} */
-
-.about-image{
-    border: 1ps solid red;
-}
 .about-image img{
     width: 12rem;
     height: 14rem;
