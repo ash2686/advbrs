@@ -7,16 +7,33 @@
 
 }
 
-/* img{
-    width: 100%;
-    height :45%;
-} */
+.contact-left{
+     animation: contact1 1.5s ease-in-out;
+}
 
-/* @media only screen and (max-width: 992px){
- .hello{
-      color: red;
-  }
-} */
+.contact-right{
+    animation: contact2 1.5s ease-in-out;
+}
+
+@keyframes contact1 {
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes contact2 {
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
 
 @media only screen and (max-width: 1200px){
     .hello{
@@ -85,6 +102,8 @@
 }
 
 }
+
+
 
 
 @media (max-width: 472px){

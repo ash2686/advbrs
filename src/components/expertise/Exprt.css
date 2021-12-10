@@ -9,6 +9,7 @@
     border: 1px solid white;
     border-radius: 5px;
     margin: 0 3rem;
+    animation: exprt1 1s ease-in;
 }
 
 
@@ -57,7 +58,16 @@
     font-size: .8rem;
 }
 
+@keyframes exprt1 { 
+    from{
+        transform: translateY(-300%);
+    }
 
+    to{
+        transform: translateY(0);
+    }
+    
+}
 
 
 /* ***************************************** MEDIA QUERIES ******************************************* */

@@ -16,11 +16,10 @@ const Home = () => {
                     <h3>MAKES ALL THE DIFFERENCE</h3>
                     <div className="home-line"></div>
 
-                    <h4>Leo has over 30 years of exerience as a trial lawyer</h4>
+                    <h4>B.R. Sharma has over 30 years of exerience as a trial lawyer</h4>
 
                     <div className="home-button">
                         <button className='home-main-button'>CASE RESULTS</button>
-                        <button className="home-side-button">&#62;</button>
                     </div>
                 </div>
             </div>

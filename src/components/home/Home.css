@@ -357,24 +357,18 @@
         height: 100vh;
     }
     .home-main-text .home-button{
-        width: 30%;
+        width: 40%;
         height: 2.3rem;
         display:flex;
         justify-content: center;
         align-items:center;
+        padding: .5rem;
         /* border: 1px solid red */
     }
 
     .home-main-button{
         /* padding: .1rem; */
-        font-size: .4rem;
-    }
-
-    .home-side-button{
-        font-size: .7rem;
-        border-radius: 0 3px 3px 0;
-          font-size: .3rem;
-          display: none;
+        font-size: .6rem;
     }
 
     .home-main-text h1{
@@ -391,7 +385,7 @@
     .home-main-text h4{
         font-size: .7rem;
         word-wrap: break-word;
-        margin: 2rem;
+        margin-bottom: 2rem;
     }
 
     .home-line{
