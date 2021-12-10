@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/advbrs/static/css/main.9c498d05.chunk.css",
+    "main.css": "/advbrs/static/css/main.25177867.chunk.css",
     "main.js": "/advbrs/static/js/main.754855f1.chunk.js",
     "main.js.map": "/advbrs/static/js/main.754855f1.chunk.js.map",
     "runtime-main.js": "/advbrs/static/js/runtime-main.7e1061c6.js",
@@ -10,9 +10,9 @@
     "static/js/3.bab96619.chunk.js": "/advbrs/static/js/3.bab96619.chunk.js",
     "static/js/3.bab96619.chunk.js.map": "/advbrs/static/js/3.bab96619.chunk.js.map",
     "index.html": "/advbrs/index.html",
-    "precache-manifest.1f7d5fa27a4ef31df9819e3182956cb6.js": "/advbrs/precache-manifest.1f7d5fa27a4ef31df9819e3182956cb6.js",
+    "precache-manifest.c5ced03f01d48a6ec8d73918991b7c03.js": "/advbrs/precache-manifest.c5ced03f01d48a6ec8d73918991b7c03.js",
     "service-worker.js": "/advbrs/service-worker.js",
-    "static/css/main.9c498d05.chunk.css.map": "/advbrs/static/css/main.9c498d05.chunk.css.map",
+    "static/css/main.25177867.chunk.css.map": "/advbrs/static/css/main.25177867.chunk.css.map",
     "static/js/2.8657f076.chunk.js.LICENSE.txt": "/advbrs/static/js/2.8657f076.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/advbrs/static/media/about.e37ec14b.jpg",
     "static/media/banking.jpg": "/advbrs/static/media/banking.f65f4cfb.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.7e1061c6.js",
     "static/js/2.8657f076.chunk.js",
-    "static/css/main.9c498d05.chunk.css",
+    "static/css/main.25177867.chunk.css",
     "static/js/main.754855f1.chunk.js"
   ]
 }
