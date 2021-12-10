@@ -232,7 +232,7 @@
 
 
     .about-text{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: .7rem;
     }
     .about-text p{
@@ -266,5 +266,27 @@
         height: 100vh;
         width: 100vw;
     }
+
+    .about-text{
+        /* border: 1px solid red; */
+        padding: .7rem;
+    }
+    .about-text p{
+        font-size: .6rem;
+ }
+
+
+ .about-text h1{
+     font-size: 1.1rem;
+     margin: -.5rem;
+ }
+
+.about-image img{
+    width: 12rem;
+    height: 14rem;
+    margin-top: 4rem;
+    box-shadow: 5px 5px rgba(94, 94, 94, 0.7);
+
+}
 
 }
