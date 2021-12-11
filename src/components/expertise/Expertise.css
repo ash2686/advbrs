@@ -21,11 +21,11 @@
 }
 
 .expertise-block1{
-    animation: animation1 1.5s ease-in-out;
+    animation: expertise1 1.5s ease-in-out;
 }
 
 .expertise-block2{
-    animation: animation2 1.5s ease-in-out;
+    animation: expertise2 1.5s ease-in-out;
 }
 .expertise-block1 a{
     width: 100%;
@@ -35,7 +35,7 @@
 
 @keyframes expertise1 {
     from{
-        transform: translateY(-200%);
+        transform: translateX(-200%);
     }
     to{
         transform: translateX(0);
@@ -45,7 +45,7 @@
 
 @keyframes expertise2 {
     from{
-        transform: translateY(200%);
+        transform: translateX(200%);
     }
     to{
         transform: translateX(0);
